@@ -8,7 +8,14 @@ body {
 p {
   margin-bottom: .67em;
 }
-
+.dropcap{
+  color: black;
+  float: left;
+  font-family: serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding: 4px;
+}
 nav, footer {
   background-color: #D2B48C;
 }
