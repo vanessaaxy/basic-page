@@ -52,6 +52,8 @@ header h1 {
 }
 .small {
   margin-top: 1em;
+  font: 'Lato', sans-serif;
+  font-weight: 900;
 }
 /*-- Article Styles--*/
 article {
