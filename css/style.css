@@ -1,5 +1,6 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
 body {
+  background-color: #F5F5F5;
   color: #444;
   font-size: 16px;
   font-family: 'Gentium Book Basic', serif;
@@ -7,14 +8,15 @@ body {
 p {
   margin-bottom: .67em;
 }
+
 nav, footer {
-  background-color: #E9967A;
+  background-color: #D2B48C;
 }
 
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
-  color: white;
+  color: black;
 }
 /*-- Main Menu Styles--*/
 nav ul {
@@ -25,15 +27,15 @@ nav ul {
 
 }
 nav a:link, nav a:visited {
-  color: #D0D0D0;
+  color: black;
   text-decoration: none;
 }
 nav a:hover, nav a:active  {
-  color: #F0F0F0;
+  color: #FFDEAD;
   text-decoration: underline;
 }
 nav a.active {
-  color: #F0F0F0;
+  color: black;
 }
 /*-- Hero Unit Styles--*/
 header {
@@ -87,21 +89,22 @@ article figcaption {
   margin-left: auto;
   margin-right: auto;
   justify-content: space-around;
+
 }
 a.button {
-  border: 1px solid #888;
+  border: 1px solid #E9967A;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color: #E9967A;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #444;
+  border: 1px solid #DEB887;
   text-decoration: none;
-  color: #222;
+  color: #DEB887;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
