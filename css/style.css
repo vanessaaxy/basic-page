@@ -1,6 +1,6 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
 body {
-  background-color: #F5F5F5;
+  background-image: linear-gradient(red,yellow);
   color: #444;
   font-size: 16px;
   font-family: 'Gentium Book Basic', serif;
